@@ -8,7 +8,7 @@
     font-family: "Montserrat" , serif;
 }
 
-header {
+nav {
     margin: 20px 0 0 70px;
     font-size: 24px;
     font-weight: 600;
@@ -92,48 +92,72 @@ p {
 
 
 
+@media screen and ( max-width: 390px ) { 
 
-@media screen and  ( max-width: 390px ) {
-    
-
-
-header {
+nav {
     display: none;
 }
 
 img {
-     width: 354px;
-     height: 317px;
-     margin: 145px 0 0 18px;
-     position: absolute;
+    width: 354px;
+    height: 317px;
+    margin-top: 60px;
+    margin-left: 13px;
+    position: relative;
 }
+
 
 h1 {
     width: 263px;
-    height: 317px;
-    margin: 473px 0 0 70px;
-    font-size: 50px;
+    height: 52px;
+    margin-top: -10px;
+    margin-left: 66px;
+    font-size: 51px;
     font-weight: 900;
-    line-height: 60.95px;
-    position: absolute;
+    line-height: 113.9px;
+    text-align: left;
+    position:relative
 }
 
 h2 {
     width: 232px;
     height: 37px;
-    margin: 538px 0 0 80px;
+    margin-top: 30px;
+    margin-left: 85px;
     font-size: 30px;
     font-weight: 500;
     line-height: 36.57px;
-    position: absolute;
+    text-align: left;
+    position:relative
+}
 
+p {
+    display: none;
 }
 
 .Explore {
     width: 239px;
     height: 64px;
-    margin: 503px 0 0 72px;
+    margin-top: 7px;
+    margin-left: 78px;
     border-radius: 50px;
-    background: #ADFF00;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34.13px;
+    position:relative;
 }
 }
+  
+
+    
+ 
+
+
+
+
+
+
+
+
+    
+
